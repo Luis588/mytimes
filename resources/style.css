@@ -1,4 +1,7 @@
 
+html{
+  font-family:Georgia;
+}
 header{
   display:flex;
   font-family:Verdana;
@@ -26,4 +29,45 @@ nav span{
 }
 a{
   color:black;
+}
+.maincontainer {
+  display:flex;
+  width:1232px;
+  margin: 0 auto 78px auto;
+  padding-top:116px;
+}
+div{
+  border:1px solid black;
+}
+.firstcolumn{
+  width: 630px;
+  display:flex;
+  flex-direction:column;
+  margin-right:32px;
+}
+.secondcolumn{
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  margin-right:32px;
+}
+.thirdcolumn {
+  width:240px;
+  display:flex;
+  flex-direction:column;
+  margin-right:32px;
+}
+.lead-story .image1{
+background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+margin-top:0px;
+font-size:40px;
+text-align:left;
+width:630px;
+}
+.image1,.image2.image3.image4
+{
+  height:300px;
+  margin-top: 15px;
+  font-weight:bold;
+  color:white;
 }
