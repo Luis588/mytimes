@@ -119,3 +119,15 @@ flex-direction: column;
 display:flex;
 justify-content: space-between;
 }
+.story1{
+  padding: 15px;
+}
+.narrative {
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+
+#orca{
+  padding-bottom: 11px;
+}
